@@ -12,23 +12,34 @@ html body {
 
 body {
     font-family: "Raleway", sans-serif;
-    color: white;
-    background-color: black;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 header {
     text-align: center;
     padding-bottom: 20px;
+    font-weight: 500;
 }
 
 header img{
-    width: 100%;
+    top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: 727px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color:#1E1A13;
+    text-align: center;
+    font-weight: 300;
+    padding:50px;
 }
 
 .descripcion {
     display:flex;
     padding:50px;
-    text-align:left;
     font-weight:500px;
 }
 
@@ -37,7 +48,15 @@ header img{
 }
 
 .descripcion p {
-    padding-top:15%;
+    padding-top:10%;
+    text-align: left;
+    display: block;
+    letter-spacing: 0px;
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+
 }
 
 .caracteristicas {
@@ -45,11 +64,50 @@ header img{
     padding:50px;
     font-size: 20px;
     text-align: center;
+    top: 1141px;
 }
 
-.car_icon {
-    display:flex;
-    justify-content:center;
-    gap:50px;
-    font: weight 300px;
+.caracteristicas>div {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap:80px;
 }
+
+.xd {
+    font-size: 10px;
+}
+
+.fotos_abajo {
+    top: 1488px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    padding-left: 10%;
+}
+
+.foto_abajo {
+    width: 500px; /* Set desired width */
+    height: 281px; /* Set desired height */
+    object-fit: cover; /* Ensures image fills the area */
+    justify-content: center;
+    display:flex;
+    padding-top: 5%;
+
+}
+
+.foto_abajo2 {
+    width: 200px; /* Set desired width */
+    height: 112px; /* Set desired height */
+    object-fit: cover; /* Ensures image fills the area */
+}
+
+.foto_abajo3 {
+    width: 200px; /* Set desired width */
+    height: 112px; /* Set desired height */
+    object-fit: cover; /* Ensures image fills the area */
+}
+
